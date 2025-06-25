@@ -103,3 +103,21 @@ img{
     color: white;
     margin-top: 5px;
 }
+@media only screen and (max-width: 600px) {
+    .box{
+    height: 320px;
+    width: 300px;
+    }
+    span{
+    font-size: 5pxpx;
+    
+}
+input{
+    height: 35px;
+    width: 100px;
+}
+#image{
+    width: 150px;
+    height: 150px;
+}
+}
