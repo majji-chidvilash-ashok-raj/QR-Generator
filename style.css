@@ -42,6 +42,8 @@
     cursor: pointer;
     margin-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+     animation: fadeIn 2s ease-in-out;
+
 }
 
 span{
@@ -85,7 +87,9 @@ input{
     margin-top: 10px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     margin-left: 10px;
+     animation: fadeIn 0.5s ease-in-out;
 }
+
 
 img{
     padding: 10px;
@@ -103,6 +107,8 @@ img{
     color: white;
     margin-top: 5px;
 }
+
+
 @media only screen and (max-width: 600px) {
     .box{
     height: 320px;
@@ -112,9 +118,15 @@ img{
     font-size: 5pxpx;
     
 }
+.main{
+    background-image: linear-gradient(to right, red , blue);
+}
 input{
     height: 35px;
     width: 100px;
+}
+h1{
+    color: white;
 }
 #image{
     width: 150px;
@@ -124,4 +136,21 @@ img{
     height: 130px;
     padding: 10px;
 }
+#download{
+    background-color: red;
+}
+#generate{
+    background-color: red;
+}
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.name {
+    animation: fadeIn 1s ease-in-out;
 }
